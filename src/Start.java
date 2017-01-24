@@ -12,6 +12,7 @@ public class Start
         DataModel model = new DataModel();
         Einloggen einloggen = new Einloggen (model);
         Tafel tafel = new Tafel(model);
+        Bearbeitung bearbeitung = new Bearbeitung(model);
         //PieChartView pieChartView = new PieChartView (model);
         //BarChartView barChartView = new BarChartView (model);
     }

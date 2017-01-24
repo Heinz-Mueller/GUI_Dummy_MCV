@@ -18,6 +18,8 @@ public class Tafel implements IObserverInterface
     private JTextField nachrichtTexteingabe;
     private JLabel User;
     private JLabel aktuellerUser;
+    private JButton messageBearbeitenButton;
+    private JButton refreshButton;
 
     //JFrame frame = new JFrame("Tafel");
 

@@ -22,10 +22,9 @@ public class Einloggen implements IObserverInterface
     JFrame m_viewFrame;
     JMenuBar m_menuBar;
     JTextField m_redTextField;
-    JTextField m_greenTextField;
+    JPasswordField m_greenTextField;
     JButton m_setButton;
     JLabel m_errorLabel;
-
 
     public Einloggen (iModelInterface model)
     {
@@ -58,7 +57,7 @@ public class Einloggen implements IObserverInterface
         b2.add(m_redTextField);
 
         b1.add(new Label("Password: ", Label.RIGHT));
-        m_greenTextField = new JTextField();
+        m_greenTextField = new JPasswordField();
         m_greenTextField.setHorizontalAlignment(JTextField.CENTER);
         b2.add(m_greenTextField);
 
